@@ -25,4 +25,4 @@ COPY . .
 EXPOSE 8080
 
 # Start the app with Gunicorn and bind to the dynamic port provided by Railway
-CMD ["gunicorn", "wsgi:app", "--bind", "0.0.0.0:$PORT"]
+CMD ["gunicorn", "wsgi:app", "--bind", "0.0.0.0:8080"]
