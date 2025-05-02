@@ -1,5 +1,5 @@
 1. First Install dependencies by this code:
- `pip install flask flask-cors pytesseract pillow googletrans==4.0.0-rc1`
+ `pip install -r requirements.txt`
 2. Then for OCR install tesseract if not installed from `https://github.com/UB-Mannheim/tesseract/wiki`
 3. After installing tesseract copy the path from your program files e.g. `C:\Program Files\Tesseract-OCR`
 4. Then search Edit Environment Variables and click environment variables
