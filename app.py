@@ -55,7 +55,7 @@ translator = Translator()
 
 # Set the path to Tesseract if needed
 tesseract_path = os.getenv('TESSERACT_CMD')  # Change this to your Tesseract path
-if tesseract_path and os.name == 'nt':
+if tesseract_path:
     pytesseract.pytesseract.tesseract_cmd = tesseract_path
 
 # Simple PDF text extraction function as fallback
